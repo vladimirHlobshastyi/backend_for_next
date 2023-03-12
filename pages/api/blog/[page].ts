@@ -40,7 +40,6 @@ export default function handler(
   } else if (req.method !== "GET") {
     res.status(405).json({ message: "Метод не поддерживается" });
   } else {
-    
     res.status(200).json(responsePosts);
   }
 }

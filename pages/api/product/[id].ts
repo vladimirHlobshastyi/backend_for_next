@@ -1,7 +1,6 @@
 import { NextApiRequest, NextApiResponse } from "next";
 import { allProducts, produtsDataType } from "../../../moc/moc";
 
-
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
   const { category, idProduct } = req.query;
 
